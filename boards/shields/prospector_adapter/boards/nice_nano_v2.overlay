@@ -56,7 +56,7 @@ disp_spi: &spi3 {
        spi-max-frequency = <31000000>;
        reg = <0>;
        cmd-data-gpios = <&gpio1 4 GPIO_ACTIVE_LOW>; //DC
-       reset-gpios = <&gpio0 11 GPIO_ACTIVE_LOW>; // RES
+       reset-gpios = <&gpio0 10 GPIO_ACTIVE_LOW>; // RES
        width = <240>;
        height = <280>;
        x-offset = <0>;
